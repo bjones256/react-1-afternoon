@@ -29,25 +29,26 @@ body {
   margin-right: 0px;
 }
 
-.evenAndOddPB {
-  height: 270px;
+/* .evenAndOddPB {
+  height: 100%;
+} */
+
+.filterObjectPB,.filterStringPB, .palindromePB, .sumPB, .evenAndOddPB  {
+  height: 100%;
+  padding-bottom: 40px;
 }
 
-.filterObjectPB {
-  height: 390px
-}
-
-.filterStringPB {
+/* .filterStringPB {
   height: 350px;
-}
-
+} */
+/* 
 .palindromePB {
   height: 225px;
 }
 
 .sumPB {
   height: 270px;
-}
+} */
 
  .resultsBox {
   width: 360px;
@@ -64,6 +65,7 @@ body {
 
 .filterObjectRB {
   height: 95px;
+  overflow: scroll;
 }
 
 .filterStringRB {

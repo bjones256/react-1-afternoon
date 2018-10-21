@@ -40,7 +40,7 @@ class Palindrome extends Component{
                 <h4>Palindrome</h4>
                 <input className="inputLine" onChange={e => this.userInput(e)}/>
                 <button className="confirmationButton" onClick={()=> this.isPalindrome(this.state.userInput)}>Palindrome Check</button>
-                <span className="resultsBox">{this.state.palindrome}</span>
+                <span className="resultsBox">Palindrome:{this.state.palindrome}</span>
             </div>
         )
     }
